@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedNote.MainPage">
+
+    
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            Padding="15, 15, 15 , 15"
+            Spacing="25">
+        <Button
+            Text="Click to Start the Setup Process"
+            VerticalOptions="Center"
+            BackgroundColor="Green"
+            TextColor="White"
+            CornerRadius="0"
+            FontSize="17"
+            Clicked="Button_Clicked"
+            x:Name="StartupBtn"
+            IsVisible="True"
+            
+            ></Button>
+            <Label 
+                Text="Getting everything ready"
+               x:Name="SplashFirstLabel"
+                VerticalOptions="Center"
+                FontSize="Large"
+                FontFamily="Myriad Pro Light"
+                IsVisible="False"
+            ></Label>
+            
+        </HorizontalStackLayout>
+    
+
+</ContentPage>
